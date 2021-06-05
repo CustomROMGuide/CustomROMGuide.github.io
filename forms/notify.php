@@ -18,7 +18,7 @@
   $contact = new PHP_Email_Form;
   $contact->ajax = true;
   
-  $contact->to = $receiving_email_address;
+  $contact->to = zilliondollarkuruvi@gmail.com;
   $contact->from_name = "Subscriber";
   $contact->from_email = $_POST['email'];
   $contact->subject ="Notify me request";
